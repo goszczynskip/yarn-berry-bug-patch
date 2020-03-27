@@ -1,0 +1,9 @@
+{
+  "name": "yarn-berry-bug-patch",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "webpack": "*"
+  }
+}

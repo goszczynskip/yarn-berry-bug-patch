@@ -1,0 +1,12 @@
+diff --git "a/C:\\Users\\Piotr\\AppData\\Local\\Temp\\xfs-0c2e3c19/lib/DirectoryWatcher.js" "b/C:\\Users\\Piotr\\AppData\\Local\\Temp\\xfs-c6363394/lib/DirectoryWatcher.js"
+index 39e6342..d8e7a0b 100644
+--- "a/C:\\Users\\Piotr\\AppData\\Local\\Temp\\xfs-0c2e3c19/lib/DirectoryWatcher.js"
+@@ -53,7 +53,7 @@ function DirectoryWatcher(directoryPath, options) {
+        this.watcher = chokidar.watch(directoryPath, {
+                ignoreInitial: true,
+                persistent: true,
+-               followSymlinks: false,
++               followSymlinks: true,
+                depth: 0,
+                atomic: false,
+                alwaysStat: true,

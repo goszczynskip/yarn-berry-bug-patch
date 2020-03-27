@@ -1,0 +1,6 @@
+Try to run: `yarn`. It'll throw
+```
+...
+➤ YN0001: │ Error: watchpack@patch:watchpack@1.6.1#./.fix-symlinks.patch::locator=webpack%40npm%3A4.42.1: ENOENT: no such file or directory, open './.fix-symlinks.patch'
+...
+```
